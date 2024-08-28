@@ -1,0 +1,49 @@
+/* 全体のスタイル */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ラッパー */
+#wrapper {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* ヘッダー */
+header {
+    background-color: #ffcccc;
+    height: 50px;
+    width: 1000px;
+    text-align: center;
+    line-height: 50px;
+}
+
+/* メニュー */
+#menu {
+    background-color: #ccccff;
+    float: right;
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* メインコンテンツ */
+#main {
+    background-color: #ccffcc;
+    float: left;
+    width: 700px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* フッター */
+footer {
+    clear: both;
+    background-color: #ffccff;
+    height: 50px;
+    width: 1000px;
+    text-align: center;
+    line-height: 50px;
+}
