@@ -5,45 +5,46 @@ body {
     padding: 0;
 }
 
-/* ラッパー */
-#wrapper {
-    width: 1000px;
-    margin: 0 auto;
-}
-
-/* ヘッダー */
+/* ヘッダーのスタイル設定 */
 header {
-    background-color: #ffcccc;
-    height: 50px;
-    width: 1000px;
-    text-align: center;
-    line-height: 50px;
+    background-color: #ffcccc; 
+    width: 1000px; 
+    height: 50px; 
+    text-align: left;
+    line-height: 50px; 
+    margin: 0 auto; 
 }
 
-/* メニュー */
-#menu {
-    background-color: #ccccff;
-    float: right;
-    width: 300px;
-    padding: 10px;
-    box-sizing: border-box;
+/* mainとmenuを含むラッパーのスタイル設定 */
+#wrapper {
+    width: 1000px; 
+    margin: 0 auto; 
+    display: flex; 
 }
 
-/* メインコンテンツ */
+/* メインコンテンツエリアのスタイル設定 */
 #main {
     background-color: #ccffcc;
-    float: left;
-    width: 700px;
+    width: 700px; 
     padding: 10px;
     box-sizing: border-box;
 }
 
-/* フッター */
+/* ナビゲーションメニューのスタイル設定 */
+#menu {
+    background-color: #ccccff; 
+    width: 300px; 
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+/* フッターのスタイル設定 */
 footer {
-    clear: both;
-    background-color: #ffccff;
-    height: 50px;
-    width: 1000px;
-    text-align: center;
-    line-height: 50px;
+    background-color: #ffccff; 
+    width: 1000px; 
+    height: 50px; 
+    text-align:left;
+    line-height: 50px; 
+    margin: 0 auto; 
+    clear: both; 
 }
